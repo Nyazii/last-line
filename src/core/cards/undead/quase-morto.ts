@@ -7,7 +7,7 @@ export const QuaseMorto: UnitCard = {
   stage: 0,
   name: "Quase Morto",
   image: "genericimg.png",
-  hitpoints: 3,
+  hitpoints: 5,
   moral: 0,
   attacks: []
 };

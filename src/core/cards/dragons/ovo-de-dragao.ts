@@ -7,7 +7,7 @@ export const OvoDeDragao: UnitCard = {
   stage: 0,
   name: "Ovo de Dragão",
   image: "/cards/dragons/Dragon Egg.png",
-  hitpoints: 3,
+  hitpoints: 5,
   moral: 0,
   attacks: []
 };

@@ -7,7 +7,7 @@ export const CentelhaDivina: UnitCard = {
   stage: 0,
   name: "Centelha Divina",
   image: "genericimg.png",
-  hitpoints: 3,
+  hitpoints: 5,
   moral: 0,
   attacks: []
 };

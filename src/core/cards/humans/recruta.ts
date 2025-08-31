@@ -7,7 +7,7 @@ export const Recruta: UnitCard = {
   stage: 0,
   name: "Recruta",
   image: "genericimg.png",
-  hitpoints: 3,
+  hitpoints: 5,
   moral: 0,
   attacks: []
 };
