@@ -1,7 +1,17 @@
-export default function App() {
+import { UnitCardlayout } from "./ui/index";
+import { OvoDeDragao } from "./core";
+
+function App() {
   return (
-    <div className="h-screen w-screen flex items-center justify-center bg-blue-500">
-      <h1 className="text-white text-3xl font-bold">Hello, Tailwind!</h1>
+    <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center gap-10 p-6">
+      {/* Vários tamanhos da mesma carta */}
+      <div className="flex gap-20">
+        <div>
+          <UnitCardlayout card={OvoDeDragao} />
+        </div>
+      </div>
     </div>
   );
 }
+
+export default App;

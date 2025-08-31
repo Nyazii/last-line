@@ -1,5 +1,5 @@
 // Facções disponíveis
-export type Faction = "Dragons" | "Undead" | "Humans" | "Celestials" | "Neutral";
+type Faction = "dragons" | "undead" | "humans" | "celestials" | "neutral";
 
 // Base mínima de todas as cartas
 export interface BaseCard {
