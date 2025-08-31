@@ -87,9 +87,7 @@ npm run tauri build
 
  - [X] Setup do projeto com React + Tauri + Tailwind
  - [ ] Estrutura inicial de cartas e tabuleiro
- - [ ] Implementação do sistema de moral
- - [ ] Mecânicas de turno
- - [ ] Primeiras facções jogáveis
+ - [ ] Mecânicas do jogo
  - [ ] IA local para testes
  ---
 
