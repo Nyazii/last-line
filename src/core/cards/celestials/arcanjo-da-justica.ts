@@ -4,7 +4,7 @@ export const ArcanjodaJustica: UnitCard = {
     id: "u12",
     faction: "celestials",
     name: "Arcanjo da Justiça",
-    image: "",
+    image: "genericimg.png",
     type: "unit",
     stage: 2,
     hitpoints: 13,

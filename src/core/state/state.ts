@@ -2,11 +2,10 @@
 export interface PlayerState {
   id: string;
   name: string;
-  morale: number;
-  hand: string[]; // ids das cartas
+  hand: string[];
 }
 
 export interface GameState {
   players: PlayerState[];
-  turn: number; // índice do jogador atual
+  turn: number;
 }

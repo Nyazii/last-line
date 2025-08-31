@@ -1,10 +1,9 @@
 import { BaseCard } from "./base-card";
-import { GameState } from "../../state/state";
 
 type stage = 0 | 1 | 2 ;
 
-// Tipo que define o efeito do ataque (recebe o estado do jogo e a carta que atacou)
-type AttackEffect = (state: GameState, card: UnitCard) => void;
+// Tipo que define o efeito ativo do ataque
+type AttackEffect = () => void;
 
 // Estrutura de um ataque
 interface Attack {
@@ -17,7 +16,7 @@ interface Attack {
 
 // Carta de unidade
 export interface UnitCard extends BaseCard {
-  type: "unit";        // tipo definido com unidade
+  type: "unit";        // tipo definido como unidade
   stage: stage;        // estágio da unidade
   hitpoints: number;   // pontos de vida
   moral: number;       // moral atual da unidade

@@ -4,7 +4,7 @@ export const PegasusSagrado: UnitCard = {
     id: "u11",
     faction: "celestials",
     name: "Pegasus Sagrado",
-    image: "",
+    image: "genericimg.png",
     type: "unit",
     stage: 1,
     hitpoints: 8,
