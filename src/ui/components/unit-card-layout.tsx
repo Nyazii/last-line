@@ -1,5 +1,5 @@
 import React from "react";
-import { UnitCard } from "@core/index";
+import { UnitCard } from "@core/cards/index";
 
 // Recebe as informações da carta e como deve ser exibida
 interface UnitCardLayoutProps {

@@ -1,5 +1,5 @@
 import { UnitCardlayout } from "./ui/index";
-import { OvoDeDragao } from "./core";
+import { OvoDeDragao } from "./core/cards";
 
 function App() {
   return (
